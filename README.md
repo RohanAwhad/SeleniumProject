@@ -11,7 +11,7 @@ To execute:<br />
 &nbsp;&nbsp;**0. Starting project:<br />**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd Website/pollster<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./manage.py runserver<br />
-&nbsp;&nbsp;**WebDriver:<br />**
+&nbsp;&nbsp;**1. Grid:<br />**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd Grid/<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;java -jar selenium-server-standalone-3.141.59.jar<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pytest -n 8<br />

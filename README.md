@@ -13,10 +13,10 @@ To execute:<br />
       ./manage.py runserver<br />
   **1. Grid:<br />**
       cd Grid/<br />
-<&nbsp>  java -jar selenium-server-standalone-3.141.59.jar<br />
-<&nbsp>  pytest -n 8<br />
-<&nbsp>**2. WebDriver:<br />**
-      cd WebDriver/<br />
-      python3 pollingTestSuite.py<br />
+java -jar selenium-server-standalone-3.141.59.jar<br />
+pytest -n 8<br />
+&nbsp;&nbsp;**2. WebDriver:<br />**
+&nbsp;&nbsp;&nbsp;&nbsp;cd WebDriver/<br />
+&nbsp;     python3 pollingTestSuite.py<br />
       python3 loginTestSuite.py<br />
 

@@ -1,9 +1,9 @@
 This is my Selenium project made for College miniproject submission. It has Django based website in website folder. 
 
 Selenium testing has 3 sub methods
-  ***Grid***
-  ***Web Driver***
-  ***IDE***
+  ***Grid<br />***
+  ***Web Driver<br />***
+  ***IDE<br />***
 
 The project is also divided into respective folders.
 To execute:<br />
@@ -19,3 +19,4 @@ To execute:<br />
       cd WebDriver/<br />
       python3 pollingTestSuite.py<br />
       python3 loginTestSuite.py<br />
+

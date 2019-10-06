@@ -8,15 +8,15 @@ Selenium testing has 3 sub methods<br />
 The project is also divided into respective folders.
 To execute:<br />
 
-	**0. Starting project:<br />**
-		cd Website/pollster<br />
-		./manage.py runserver<br />
-	**1. Grid:<br />**
-		cd Grid/<br />
-		java -jar selenium-server-standalone-3.141.59.jar<br />
-		pytest -n 8<br />
-	**2. WebDriver:<br />**
-		cd WebDriver/<br />
-		python3 pollingTestSuite.py<br />
-		python3 loginTestSuite.py<br />
+&nbsp;&nbsp;**0. Starting project:<br />**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd Website/pollster<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./manage.py runserver<br />
+&nbsp;&nbsp;**WebDriver:<br />**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd Grid/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;java -jar selenium-server-standalone-3.141.59.jar<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pytest -n 8<br />
+&nbsp;&nbsp;**2. WebDriver:<br />**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd WebDriver/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python3 pollingTestSuite.py<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python3 loginTestSuite.py<br />
 

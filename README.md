@@ -8,7 +8,7 @@ Selenium testing has 3 sub methods
 The project is also divided into respective folders.
 To execute:
 
-  0. Starting project:
+  **Starting project:\n**
       cd Website/pollster
       ./manage.py runserver
 
